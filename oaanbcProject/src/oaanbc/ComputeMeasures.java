@@ -124,7 +124,7 @@ public class ComputeMeasures {
                               Double []lPCCC=ct.getPCCC();
                               Double []lCsmfAccuracy=ct.getCsmfAccuracy();
 
-                              for (int j=0; j<totalClassesInput; j++){// saving sensitivitiies sum for multiple repetitions
+                              for (int j=0; j<lSensitivity.length; j++){// saving sensitivities sum for multiple repetitions
                                   sensitivity[j]+=lSensitivity[j];
                                   specificity[j]+=lSpecificity[j];
                                   PCCC[j]+=lPCCC[j];

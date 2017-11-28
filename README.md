@@ -14,8 +14,11 @@ To execute the experiments follow these steps (note all the experiments have bee
    
   
 Directories in the repository
+
 oaanbcProject: All the source code of OAA-NBC in Java along with the code for generation of data for n-folds and the code for measurements of output or R code.
+
 R-code: R code using OpenVA package and weka (input) files to execute OAA-NBC,  InterVA-4, Tariff, InSilicoVA and NBC 
+
 lib: this folder contains the compiled jar file of the OAA-NBC source code. This file is used in above scripts.
 
    

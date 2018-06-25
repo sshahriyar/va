@@ -13,7 +13,7 @@
 for algo in "naivebayes" "tariff" "interva" "insilico"
 do
 echo $algo
-java -jar  oaanbc.jar  "m" "dataset/dirichlet/dataset_dirich_matlab_10_folds/output_$algo" "10"  "15" 
+java -jar  lib/oaanbc.jar  "m" "dataset/dirichlet/dataset_dirich_matlab_10_folds/output_$algo" "10"  "15" 
 
 
 
@@ -23,7 +23,7 @@ done
 for algo in "naivebayes" "tariff" "interva" "insilico"
 do
 echo $algo
-java -jar  oaanbc.jar  "m" "dataset/regular/dataset_matlab_10_folds/output_$algo" "10"  "15" 
+java -jar  lib/oaanbc.jar  "m" "dataset/regular/dataset_matlab_10_folds/output_$algo" "10"  "15" 
 
 
 

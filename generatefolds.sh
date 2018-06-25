@@ -12,12 +12,12 @@
 
 
 
-java -jar  lib/oaanbc.jar  "f" "dataset/mds_nom.arff" "10"  "15" "dataset_mds"  "f"
+java -jar  lib/oaanbc.jar  "f" "dataset/regular/matlab_nom.arff" "10"  "15" "mypath/dataset_matlab"  "f"
 
 
 
 echo "****************Generate files uisng 10 folds but generate the test set using Dirichlet distribution ***************"
 
 
-java -jar  lib/oaanbc.jar  "f" "dataset/mds_nom.arff" "10"  "15" "dataset_dirich_mds"  "t"
+java -jar  lib/oaanbc.jar  "f" "dataset/regular/matlab_nom.arff" "10"  "15" "mypath/dataset_dirich_matlab"  "t"
 

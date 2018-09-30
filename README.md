@@ -6,7 +6,7 @@ To execute the experiments follow these steps (note all the experiments have bee
 1. Get VA datasets and convert them into CSV format with symptoms being columns, causes of death being the last column and each row being the
  record. Download Weka, Machine Learning software, from: https://www.cs.waikato.ac.nz/ml/weka/. Open CSV file in Weka and save it as an ARFF (Weka's format). Make sure all the attribute types are numeric, except the class attribute.
 
-   1.1 Matlab dataset is present in the dataset folder in arff format as a sample. There are also two variations of 10 splits of the Matlab dataset using 10 fold cross validation concept: one for dirichlet distribution and one based on the original distribution. These 10-fold based splits can also be generated using the code provided here and using the file matlab.arff present in the dataset folder.
+   1.1 All the datasets used in the paper are present in Arff format in the dataset folder, except MDS dataset. For an example, we have also provided different variations of Matlab dataset as used in the experiments. There are actually two variations of 10 splits of the Matlab dataset using 10 fold cross validation concept: one for dirichlet distribution and one based on the original distribution. These different variations can also be generated using the code provided here for any of the data file in .arff format.
 
 2. If you have a VA dataset in arff format ready, you can generate 10-folds cross validation splits (training and test set pair for each fold) for the given dataset. 
    Code examples are present in the file: generatefolds.sh

@@ -10,21 +10,19 @@
 # 3. "10" Number of folds
 # 4. "15" total classes in the dataset (Excluding others which is used by OAA-NBC only)
 
-for algo in "naivebayes" "tariff" "interva" "insilico"
-do
-echo $algo
-java -jar  lib/oaanbc.jar  "m" "dataset/dirichlet/dataset_dirich_matlab_10_folds/output_$algo" "10"  "15" 
+
+#example 1
+algo="interva"
+numClasses="15"
+java -jar  lib/oaanbc.jar  "m" "dataset/dirichlet/dataset_dirich_matlab_10_folds/output_$algo" "10"  $numClasses 
+
+
+# Example 2
+
+
+algo="tariff"
+numClasses="15"
+java -jar  lib/oaanbc.jar  "m" "dataset/regular/dataset_matlab_10_folds/output_$algo" "10"  $numClasses 
 
 
 
-done
-
-
-for algo in "naivebayes" "tariff" "interva" "insilico"
-do
-echo $algo
-java -jar  lib/oaanbc.jar  "m" "dataset/regular/dataset_matlab_10_folds/output_$algo" "10"  "15" 
-
-
-
-done

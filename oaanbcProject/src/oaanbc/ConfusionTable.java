@@ -351,7 +351,7 @@ public class ConfusionTable {
 	 *
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		String[] a = { "1", "2", "3", "4" };
 		ConfusionTable t = new ConfusionTable(4, a, 6);
 		t.updateCorrectPrediction(1, "1");
@@ -364,5 +364,5 @@ public class ConfusionTable {
 
 		t.calculateMeasuresPerClass();
 		// t.calculateMeasures();
-	}
+	}*/
 }

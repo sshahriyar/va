@@ -218,7 +218,7 @@ public class MyWeka2 {
 					&& dataSets[fCnt].attribute(attributeNameToRemove) != null) {
 
 				options[1] = Integer.toString(dataSets[fCnt]
-						.attribute("uniqNo").index() + 1);
+						.attribute(attributeNameToRemove).index() + 1);
 
 				Remove remove = new Remove(); // new instance of filter
 				remove.setOptions(options); // set options

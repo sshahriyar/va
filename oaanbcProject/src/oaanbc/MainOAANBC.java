@@ -10,6 +10,47 @@ public class MainOAANBC {
 
 	public static void main (String []args) throws Exception{
 
+	        //BufferedWriter outputBuildTime=null;
+	      //  long startTime=0;
+	      //  OneAgainstAll m= new OneAgainstAll();
+	        	//String inputFolder="/home/shary/sharywork/ryerson/newer_experiment_data/arff/with_id/output_R";
+	       //---  String inputFolder="/home/shary/sharywork/ryerson/experiment_data/finaldata/comparison_dirich_mds/output_naivebayes";
+	        // String inputFolder="/home/shary/sharywork/ryerson/experiment_data/comparison_agincourt/output_naivebayes";
+	      //---   String finalOutputFile="result_"+inputFolder.substring(inputFolder.lastIndexOf(File.separator)+1,inputFolder.length())+".txt";
+
+	        	//args=new String[]{"/home/shary/sharywork/ryerson/experiment_data/finaldata/Agincourt_nom.arff", "10", "10", "16", "t"};
+	        //   String outFolder="comparison_dirich_agincourt";
+	           //String outFolder="comparison_agincourt";
+	       // args=new String[]{"/home/shary/sharywork/ryerson/experiment_data/finaldata/Matlab_nom.arff", "10", "10", "15", "f"};
+	      // String outFolder="comparison_dirich_matlab";
+	       //String outFolder="comparison_matlab";
+	          ;
+	      //  String outFolder="comparison_dirich_mds";
+	       // String outFolder="comparison_mds";
+	        //args=new String[]{"/home/shary/sharywork/ryerson/newer_experiment_data/arff/with_id/PHMRC_IHME_India_Adult_12-69yrs_withid.arff"
+	        	//	, "10", "10", "13", "f"};
+	        //String outFolder="comparison_India_Adult_12-69yrs";
+	//
+	       // args=new String[]{"/home/shary/sharywork/ryerson/newer_experiment_data/arff/with_id/PHMRC_IHME_India_Child_28days-11yrs_withid.arff"
+	        //		, "10", "10", "9", "f"};
+	        //String outFolder="comparison_India_Child_28days-11yrs_withid";
+
+	       // args=new String[]{"/home/shary/sharywork/ryerson/newer_experiment_data/arff/with_id/PHMRC_IHME_India_Neo_u28days_withid.arff"
+	        //		, "10", "10", "2", "f"};
+	       // String outFolder="comparison_India_Neo_u28days_withid";
+
+	         // #####
+	         // args=new String[]{"f","/home/shary/sharywork/ryerson/experiment_data/finaldata/agincourt_nom.arff","10", "16","dataset_agincourt", "f"};
+	        //args=new String[]{"m","/home/shary/sharywork/ryerson/experiment_data/finaldata/dataset_dirich_mds/output_insilico","10","15"};
+	         // args=new String[]{"o" ,"/home/shary/sharywork/ryerson/experiment_data/finaldata/dataset_agincourt" ,"10" ,"16", "uniqNo"};
+
+
+
+	          //args=new String[]{"f","/home/shary/sharywork/ryerson/experiment_data/finaldata/mds_nom.arff","10", "15","dataset_mds", "f"};
+	        args=new String[]{"m","/home/shary/sharywork/ryerson/experiment_data/finaldata/dataset_dirich_mds/output_insilico","10","15"};
+	        //  args=new String[]{"o" ,"/home/shary/sharywork/ryerson/experiment_data/finaldata/dataset_mds" ,"10" ,"15", "uniqNo"};
+	        
+	        args=new String[]{"m","/home/shary/sharywork/ryerson/experiment_data/names-data/matlab-10fold/output_interva","10","15"};
 	        
 	        String inputPath="";
 	        Integer totalFolds=0;

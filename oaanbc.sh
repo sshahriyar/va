@@ -4,7 +4,7 @@
 ###
 ## parameters:
 # 1. "o" oaanbc model building
-# 2. "dataset/regular/dataset_matlab_10folds" input file
+# 2. "dataset/regular/dataset_matlab_10folds" folder path containing all 10 fold files as created by another option of OAANBC jar
 # 3. "10" Number of folds
 # 4. "15" total classes in the dataset (Excluding others which is used by OAA-NBC only)
 # 5. "uniqNo" the name of attribute that contains unique identifier ofr each record. OAA-NBC needs to know about it so that it can discard it

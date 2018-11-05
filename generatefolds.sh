@@ -8,7 +8,8 @@
 # 2. "dataset/mds_nom.arff" input file
 # 3. "10" Number of folds
 # 4. "15" total classes in the dataset (Excluding others which is used by OAA-NBC only)
-# 5. "f" for false and "t" for true foe dirichlet distribution based test set
+# 5. "mypath/dataset_matlab" output folder path (note to avoid errors, always provide parent path before the actual folder name)"
+# 6. "f" for false and "t" for true for dirichlet distribution based test set
 
 
 

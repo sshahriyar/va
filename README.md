@@ -4,7 +4,7 @@ Verbal Autopsy Experiments for OAA-NBC
 To execute the experiments follow these steps (note all the experiments have been successfully tested on a Linux machine not on Windows):
 
 1. Get VA datasets and convert them into CSV format with symptoms being columns, causes of death being the last column and each row being the
- record. Download Weka, Machine Learning software, from: https://www.cs.waikato.ac.nz/ml/weka/. Open CSV file in Weka and save it as an ARFF (Weka's format). Make sure all the attribute types are numeric, except the class attribute.
+ record. Download Weka, Machine Learning software, from: https://www.cs.waikato.ac.nz/ml/weka/. Open CSV file in Weka and save it as an ARFF (Weka's format). Make sure all the attribute types are numeric, except the class attribute. Open ARFF file in a text editor, rename your class attribute as "Cause" and odd "others" as one of the class values; e.g., @attribute Cause {1,3,4,5,6,8,9,10,11,13,14,16,17,others}. The "others" value is used by OAANBC for one-against-all approach.
 
    1.1 All the datasets used in the paper are present in Arff format in the dataset folder, except MDS dataset. For an example, we have also provided different variations of Matlab dataset as used in the experiments. There are actually two variations of 10 splits of the Matlab dataset using 10 fold cross validation concept: one for dirichlet distribution and one based on the original distribution. These different variations can also be generated using the code provided here for any of the data file in .arff format.
 

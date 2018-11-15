@@ -1,5 +1,8 @@
+
 # va
 Verbal Autopsy Experiments for OAA-NBC
+
+[![DOI](https://zenodo.org/badge/112383477.svg)](https://zenodo.org/badge/latestdoi/112383477)
 
 To execute the experiments follow these steps (note all the experiments have been successfully tested on a Linux machine not on Windows):
 

@@ -1,9 +1,7 @@
 
-# va
-Verbal Autopsy Experiments for OAA-NBC
+# Repo for Verbal autopsy paper using OAA-NBC algorithm
 
-## Journal Publication 
-https://gatesopenresearch.org/articles/2-63/v2
+Journal Publication URL: https://gatesopenresearch.org/articles/2-63/v2
 
 [![DOI](https://zenodo.org/badge/112383477.svg)](https://zenodo.org/badge/latestdoi/112383477)
 
